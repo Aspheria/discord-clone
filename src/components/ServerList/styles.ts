@@ -5,7 +5,7 @@ export const Container = styled.div`
 
 	display: flex;
 	flex-direction: column;
-	align-itens: center; 
+	align-items: center; 
 
 	background-color: var(--tertiary);
 	padding: 11px 0;
@@ -21,8 +21,8 @@ export const Container = styled.div`
 
 export const Separator = styled.div`
 	width: 32px;
-	border-bottom: 2px solid var(--quarternary);
+	border-bottom: 2px solid var(--quaternary);
 
-	margin-buttom: 8px
+	margin-bottom: 8px
 `;
 

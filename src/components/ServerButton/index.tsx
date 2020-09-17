@@ -11,10 +11,10 @@ export interface Props {
   mentions ?: number;
 }
   const ServerButton: React.FC <Props> = ({
-  selected,
-  isHome,
-  hasNotifications,
-  mentions
+    selected,
+    isHome,
+    hasNotifications,
+    mentions
 }) => {
   return (
     <Button
